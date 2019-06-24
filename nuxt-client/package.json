@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-client",
+  "version": "1.0.0",
+  "description": "My priceless Nuxt.js project",
+  "author": "giangnv-0040",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.5.4",
+    "bootstrap-vue": "^2.0.0-rc.24",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
