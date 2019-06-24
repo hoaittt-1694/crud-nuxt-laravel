@@ -26,3 +26,9 @@ Route::get('users/{user}', 'UserController@show');
 Route::put('users/{user}', 'UserController@update');
 Route::post('users', 'UserController@store');
 Route::delete('users/{user}', 'UserController@destroy');
+
+Route::get('puzzles', 'PuzzleController@index');
+Route::get('puzzles/{puzzle}', 'PuzzleController@show');
+Route::put('puzzles/{puzzle}', 'PuzzleController@update');
+Route::post('puzzles', 'PuzzleController@store');
+Route::delete('puzzles/{puzzle}', 'PuzzleController@destroy');
